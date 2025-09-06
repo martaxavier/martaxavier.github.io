@@ -1,4 +1,4 @@
 ---
-layout: work
-title: "Work"
+layout: communications
+title: "Communications"
 ---
