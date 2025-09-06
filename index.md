@@ -1,11 +1,8 @@
 ---
 layout: home
-title: Marta Xavier
-subtitle: PhD Candidate Biomedical Engineering and Computational Neuroscience
-image:   # leave empty to hide the hero image
+title: "Home"
 ---
 
-### Research
+This theme allows an academic person to showcase their research interests, publications, research group, curriculum vitae, any courses that they may be teaching, or anything else they may want to put out into the world.
 
-I am a PhD candidate in Biomedical Engineering and Computational Neuroscience, where I specialised in dynamical systems modelling, machine learning and large-scale data analysis applied to neuroimaging data.  
-I work at LaSEEB–Institute for Systems and Robotics at Instituto Superior Técnico (Lisboa), in collaboration with the Computational Neuroscience Group of the Center for Brain and Cognition at Universitat Pompeu Fabra (Barcelona).
+Academics can use this home page to describe their research interests, display their latest publications, or provide an introduction to their research group.
