@@ -9,10 +9,10 @@ layout: default
     <h3 class="fw-bold border-bottom pb-3 mb-5">Work</h3>
     <div class="row g-5 mb-5">
       <div class="col-md-2">
-        <h4>Talk</h4>
+        <h4>Talks</h4>
       </div>
       <div class="col-md-10">
-        {% for section in site.data.communications.talk %}
+        {% for section in site.data.communications.talks %}
           <p class="fw-bold">{{ section.title }}</p>
           <p>{{ section.description }}</p>
         {% endfor %}
@@ -20,10 +20,10 @@ layout: default
     </div>
     <div class="row g-5 mb-5">
       <div class="col-md-2">
-        <h4>Poster</h4>
+        <h4>Posters</h4>
       </div>
       <div class="col-md-10">
-        {% for section in site.data.communications.poster %}
+        {% for section in site.data.communications.posters %}
           <p class="fw-bold">{{ section.title }}</p>
           <p>{{ section.description }}</p>
         {% endfor %}
