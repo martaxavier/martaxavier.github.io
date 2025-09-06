@@ -5,9 +5,9 @@ menu:
 - {name: 'contact', url: '/contact'}
 
 social:
-- {icon: 'github', link: 'https://github.com/martaxavier'}
-- {icon: 'graduation-cap', link: 'https://scholar.google.com/citations?user=ANUWCqMAAAAJ&hl=en'}
-- {icon: 'linkedin', link: 'https://linkedin.com/in/martalouresxavier'}
+  - {icon: "fab fa-github", link: "https://github.com/martaxavier"}
+  - {icon: "ai ai-google-scholar", link: "https://scholar.google.com/citations?user=ANUWCqMAAAAJ&hl=en"}
+  - {icon: "fab fa-linkedin", link: "https://linkedin.com/in/martalouresxavier"}
 
 contacts:
 - {name: 'Marta Xavier', title: 'PhD Candidate', department: 'LaSEEB-Institute for Systems and Robotics', institution: 'Instituto Superior Técnico, University of Lisbon', email: 'marta.xavier@tecnico.ulisboa.pt', image: 'assets/img/marta.jpg'}
