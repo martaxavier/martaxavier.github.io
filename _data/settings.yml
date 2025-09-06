@@ -4,15 +4,10 @@ menu:
 - {name: 'cv', url: '/cv'}
 - {name: 'contact', url: '/contact'}
 
-work:
-- {name: 'Vector Calculus', url: 'vector-calculus'}
-- {name: 'Quantum Mechanics', url: 'quantum-mechanics'}
-- {name: 'Stellar Structures', url: 'stellar-structures'}
-
 social:
 - {icon: 'github', link: 'https://github.com/martaxavier'}
 - {icon: 'scholar', link: 'https://scholar.google.com/citations?user=ANUWCqMAAAAJ&hl=en'}
 - {icon: 'linkedin', link: 'https://linkedin.com/in/martalouresxavier'}
 
 contacts:
-- {name: 'Marta Xavier', title: 'PhD Candidate', department: 'Institute for Systems and Robotics', institution: 'Instituto Superior Técnico', email: 'marta.xavier@tecnico.ulisboa.pt', image: 'assets/img/marta.jpg'}
+- {name: 'Marta Xavier', title: 'PhD Candidate', department: 'LaSEEB-Institute for Systems and Robotics', institution: 'Instituto Superior Técnico, University of Lisbon', email: 'marta.xavier@tecnico.ulisboa.pt', image: 'assets/img/marta.jpg'}
