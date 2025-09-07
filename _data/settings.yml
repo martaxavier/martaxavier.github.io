@@ -10,4 +10,4 @@ social:
   - {icon: "fab fa-linkedin", link: "https://linkedin.com/in/martalouresxavier"}
 
 contacts:
-- {name: 'Marta Xavier', title: 'PhD Candidate', department: 'LaSEEB-Institute for Systems and Robotics', institution: 'Instituto Superior Técnico, University of Lisbon', email: 'marta.xavier@tecnico.ulisboa.pt', image: 'assets/img/marta.jpg'}
+- {name: 'Marta Xavier', title: 'PhD Candidate', department: 'LaSEEB-Institute for Systems and Robotics', institution: 'Instituto Superior Técnico, University of Lisbon', email: '<a href=mailto:marta.xavier@tecnico.ulisboa.pt>marta.xavier@tecnico.ulisboa.pt</a>', image: 'assets/img/marta.jpg'}

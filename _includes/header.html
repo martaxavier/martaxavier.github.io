@@ -9,7 +9,9 @@
   </div>
   <nav class="d-inline-flex mt-2 mt-md-0 ms-md-auto">
     {% for item in site.data.settings.menu %}
-      <a class="me-3 py-2 text-decoration-none" href="{{ site.github.url }}{{ item.url }}">{{ item.name }}</a>
+      {% assign page_title = page.title | downcase %}
+      {% assign item_name = item.name | downcase %}
+      <a class="me-3 py-2 text-decoration-none{% if page_title == item_name %} text-decoration-underline{% endif %}" href="{{ site.github.url }}{{ item.url }}">{{ item.name }}</a>
     {% endfor %}
   </nav>
 </header>
