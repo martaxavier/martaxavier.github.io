@@ -13,8 +13,14 @@ layout: default
       </div>
       <div class="col-md-10">
         {% for section in site.data.communications.talks %}
-          <p class="fw-bold">{{ section.title }}</p>
-          <p>{{ section.description }}</p>
+          <p>
+            <a href="{{ section.url }}" target="_blank" style="text-decoration: underline; color: inherit;">
+              {{ section.title }}
+            </a>
+          </p>
+          <p style="font-size: 0.9em; color: gray;">
+            {{ section.conference }} ({{ section.date }})
+          </p>
         {% endfor %}
       </div>
     </div>
@@ -24,8 +30,14 @@ layout: default
       </div>
       <div class="col-md-10">
         {% for section in site.data.communications.posters %}
-          <p class="fw-bold">{{ section.title }}</p>
-          <p>{{ section.description }}</p>
+          <p>
+            <a href="{{ section.url }}" target="_blank" style="text-decoration: underline; color: inherit;">
+              {{ section.title }}
+            </a>
+          </p>
+          <p style="font-size: 0.9em; color: gray;">
+            {{ section.conference }} ({{ section.date }})
+          </p>
         {% endfor %}
       </div>
     </div>
